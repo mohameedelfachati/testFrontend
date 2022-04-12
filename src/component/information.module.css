@@ -1,0 +1,33 @@
+.info img{
+    height: 12rem;
+    width: 12rem;
+}
+
+
+.image{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.info{
+    margin-left : 3rem
+}
+
+.info h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.button{
+    background-color:#03C04A;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    height: 1.8rem;
+    cursor: pointer;
+    
+}
+.button:hover{
+    background-color: green
+}
