@@ -10,32 +10,35 @@ import RateReviewIcon from '@mui/icons-material/RateReview';
 
 const Menu = () => {
     return (
-        <div className={styles.menu}>
-            <div className={styles.icons}>
-                <DashboardIcon />
-                <p>DASHBOARD</p>
+        
+           
+            <div className={styles.menu}>
+                <div className={styles.icons}>
+                    <DashboardIcon />
+                    <p>DASHBOARD</p>
+                </div>
+                <div className={styles.icons}>
+                    <InfoIcon />
+                    <p>INFORMATIONS</p>
+                </div>
+                <div className={styles.icons}>
+                    <ImportContactsIcon />
+                    <p>ADDRESS BOOK</p>
+                </div>
+                <div className={styles.icons}>
+                    <AddShoppingCartIcon />
+                    <p>MY ORDERS</p>
+                </div>
+                <div className={styles.icons}>
+                    <EmojiEventsIcon />
+                    <p>MY REWARDS</p>
+                </div>
+                <div className={styles.icons}>
+                    <RateReviewIcon />
+                    <p>MY REVIEWS</p>
+                </div>
             </div>
-            <div className={styles.icons}>
-                <InfoIcon />
-                <p>INFORMATIONS</p>
-            </div>
-            <div className={styles.icons}>
-                <ImportContactsIcon />
-                <p>ADDRESS BOOK</p>
-            </div>
-            <div className={styles.icons}>
-                <AddShoppingCartIcon />
-                <p>MY ORDERS</p>
-            </div>
-            <div className={styles.icons}>
-                <EmojiEventsIcon />
-                <p>MY REWARDS</p>
-            </div>
-            <div className={styles.icons}>
-                <RateReviewIcon />
-                <p>MY REVIEWS</p>
-            </div>
-        </div>
+        
     );
 };
 

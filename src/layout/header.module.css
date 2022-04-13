@@ -35,3 +35,22 @@
     justify-content:space-between;
     gap: 8px;
 }
+
+.logo-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu-icon{
+    margin-left: 1rem;
+    opacity: 0;
+    color: white;
+    width: 0px;
+    cursor: pointer;
+}
+
+@media (width<933px){
+    .menu-icon{
+        opacity: 1;
+    }
+}
