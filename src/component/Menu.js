@@ -2,43 +2,35 @@ import React from 'react';
 import styles from './menu.module.css'
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import InfoIcon from '@mui/icons-material/Info';
-import ImportContactsIcon from '@mui/icons-material/ImportContacts';
-import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
-import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
-import RateReviewIcon from '@mui/icons-material/RateReview';
+import { Link } from "react-router-dom";
 
 
 const Menu = () => {
     return (
-        
-           
-            <div className={styles.menu}>
-                <div className={styles.icons}>
-                    <DashboardIcon />
-                    <p>DASHBOARD</p>
-                </div>
-                <div className={styles.icons}>
-                    <InfoIcon />
-                    <p>INFORMATIONS</p>
-                </div>
-                <div className={styles.icons}>
-                    <ImportContactsIcon />
-                    <p>ADDRESS BOOK</p>
-                </div>
-                <div className={styles.icons}>
-                    <AddShoppingCartIcon />
-                    <p>MY ORDERS</p>
-                </div>
-                <div className={styles.icons}>
-                    <EmojiEventsIcon />
-                    <p>MY REWARDS</p>
-                </div>
-                <div className={styles.icons}>
-                    <RateReviewIcon />
-                    <p>MY REVIEWS</p>
-                </div>
+
+
+        <div className={styles.menu}>
+            <div className={styles.icons}>
+                <DashboardIcon />
+                <Link
+                    to={"/"}
+                    style={{ textDecoration: "none", color: "inherit" }}
+                >
+                    <p>ADD USER</p>
+                </Link>
             </div>
-        
+            <div className={styles.icons}>
+                <InfoIcon />
+                <Link
+                    to={"/visualize"}
+                    style={{ textDecoration: "none", color: "inherit" }}
+                >
+                    <p>VISUALIZE</p>
+                </Link>
+            </div>
+
+        </div>
+
     );
 };
 

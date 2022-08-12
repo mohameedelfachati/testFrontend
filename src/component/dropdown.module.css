@@ -1,0 +1,11 @@
+.form-control {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: center;
+
+}
+
+.select {
+    height: 2px;
+}

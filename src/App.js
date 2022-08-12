@@ -6,7 +6,7 @@ import Home from './layout/Home';
 
 const App = () => {
   return (
-    <div class="container">
+    <div className="container">
       <Header />
       <Home />
     </div>

@@ -1,0 +1,8 @@
+.button {
+    cursor: pointer;
+    background-color: rgb(70, 70, 228);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+    border: none;
+}
